@@ -1,0 +1,13 @@
+function Randomizador(){
+    var NrandomE = Math.floor(Math.random() * 10 + 1)
+console.log(NrandomE);}
+
+var ArrayVacio = new Array(30);
+let longitud = ArrayVacio.length
+
+for(posicion = 0; posicion < longitud; posicion++ ){;
+    ArrayVacio.push(Randomizador());
+    console.log(ArrayVacio[posicion]);}
+
+
+// al ejecutar este c od  me genera los 30 nros enteros  pero debajo de cada nùmero me aparece ''undefined'' y no entiendo  el motivo.
